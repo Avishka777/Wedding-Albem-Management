@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+.ql-editor {
+  font-size: 1.05rem;
+}
+
+
+.product-content p {
+  margin-bottom: 0.5rem;
+}
+
+.product-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.product-content h2 {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  margin: 1.5rem 0;
+}
+
+.product-content a {
+  color: rgb(73, 149, 199);
+  text-decoration: none;
+}
+
+.product-content a:hover {
+  text-decoration: underline;
+}
+
+.dark .product-content a {
+  color: red;
+}
